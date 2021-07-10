@@ -13,7 +13,7 @@ echo -e "\n\033[33m""COPY libmlx.a, libmlx_Linux.a TO /usr/local/lib/ ...""\033[
 sudo cp libmlx.a /usr/local/lib/
 sudo cp libmlx_Linux.a /usr/local/lib/
 echo -e "\n\033[33m""COPY mlx.h TO /usr/local/include/ ...""\033[0m"
-sudo cp mlx.h /usr/local/include/
+sudo cp mlx*.h /usr/local/include/
 echo -e "\n\033[33m""COPY man file TO /usr/local/man/ ...""\033[0m"
 sudo cp -r man/* /usr/local/man/
 echo -e "\n\033[33m""Change Directory ~ ...""\033[0m"
